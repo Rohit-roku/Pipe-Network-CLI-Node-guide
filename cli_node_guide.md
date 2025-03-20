@@ -17,6 +17,7 @@ sudo apt upgrade -y
 ## 2️⃣ Download Required Files
 ```bash
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
+
 chmod +x pop
 ```
 
@@ -40,9 +41,9 @@ Here's what to change - Chnage ram according to your PC Specs if you have 8 Gb r
 Change the amount of max disk the space you have left minimum requirement 100GB
 remove <key> and paste your SOL address
 For example :- sudo ./pop --ram 12 --max-disk 250 --cache-dir /data --pubKey 8s9EMvWcvuZT4PZavPCaU6YVYxhFrC8CLvkoWb6APRo4
-```
 
 ```bash
+
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
 # **Open Another Ubuntu Window then continue**
