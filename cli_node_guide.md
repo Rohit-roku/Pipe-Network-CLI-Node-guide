@@ -69,6 +69,8 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ## ⬆️ Upgrade Node to v0.2.8
 ```bash
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
+```
+```
 chmod +x pop
 ```
 
