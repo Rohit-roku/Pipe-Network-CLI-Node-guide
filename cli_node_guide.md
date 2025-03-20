@@ -1,5 +1,8 @@
 # CLI Node Run Full Guide (PC)
 
+Note You need Ubuntu to run this CLI Node.
+Tip :- To paste commands use right mouse button after copying the command in Ubuntu.
+
 ## Official Documentation
 🔗 [Pipe Network Devnet-2 Docs](https://docs.pipe.network/devnet-2)
 
@@ -7,7 +10,8 @@
 
 ## 1️⃣ Install Dependencies (Windows & Linux)
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
+sudo apt upgrade -y
 ```
 
 ## 2️⃣ Download Required Files
@@ -26,17 +30,22 @@ mkdir download_cache
 ./pop --signup-by-referral-route 782d869b0b544d9b
 ```
 
-### Generate Your Referral Code
+### Generate Your own Referral Code
 ```bash
 ./pop --gen-referral-route
 ```
 
-## 5️⃣ Start Your Node
+## 5️⃣ Start Your Node - Edit this code before pasting use in Ubuntu 
+Here's what to change - Chnage ram according to your PC Specs if you have 8 Gb ram installed let it be same you have 4 Gb, 12 Gb, 16 Gb or more change it accordingly. Minimum requirement 4 Gb
+Change the amount of max disk the space you have left minimum requirement 100GB
+remove <key> and paste your SOL address
+For example :- sudo ./pop --ram 12 --max-disk 250 --cache-dir /data --pubKey 8s9EMvWcvuZT4PZavPCaU6YVYxhFrC8CLvkoWb6APRo4
+```
+
 ```bash
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
-
-> **Note:** Replace `<KEY>` with your Solana public key (from Phantom, Backpack, etc.)
+# **Open Another Ubuntu Window then continue**
 
 ## 📌 Save Node Info
 ```bash
