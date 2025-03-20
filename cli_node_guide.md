@@ -17,7 +17,8 @@ sudo apt upgrade -y
 ## 2️⃣ Download Required Files
 ```bash
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
-
+```
+```
 chmod +x pop
 ```
 
@@ -36,7 +37,7 @@ mkdir download_cache
 ./pop --gen-referral-route
 ```
 
-## 5️⃣ Start Your Node - Edit this code before pasting use in Ubuntu 
+## 5️⃣ Start Your Node - Edit this code before pasting in Ubuntu 
 Here's what to change - Chnage ram according to your PC Specs if you have 8 Gb ram installed let it be same you have 4 Gb, 12 Gb, 16 Gb or more change it accordingly. Minimum requirement 4 Gb
 Change the amount of max disk the space you have left minimum requirement 100GB
 remove <key> and paste your SOL address
@@ -56,6 +57,8 @@ nano ~/node_info.json
 ## 📊 Monitor Your Node Status & Points
 ```bash
 ./pop --status
+```
+```
 ./pop --points
 ```
 
