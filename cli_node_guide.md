@@ -53,8 +53,8 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```bash
 nano ~/node_info.json
 ```
-## After Applying the above code you'll get your Node I'd and Token I'd copy and save it in you NotePad.
-## After Save USe Ctrl + X 
+## After Applying the above code you'll get your Node I'd and Token I'd copy and save it in your NotePad.
+## Now Use Ctrl + X 
 
 ## 📊 Monitor Your Node Status & Points
 ```bash
